@@ -13,25 +13,25 @@ todos:
     status: completed
   - id: text-data
     content: Write 01-data-sources/financial-text-and-filings.md -- SEC/EDGAR, SEC-QA, FinNLI, FPB, earnings calls
-    status: pending
+    status: completed
   - id: multimodal-data
     content: Write 01-data-sources/multimodal-and-research-grade.md -- FNSPID, FinMultiTime, Google Trends, EUROFIDAI
-    status: pending
+    status: completed
   - id: tabular-bench
     content: Write 02-benchmarks/tabular-foundation-models.md -- TabArena, TALENT, finance gap analysis
-    status: pending
+    status: completed
   - id: ts-bench
     content: Write 02-benchmarks/time-series-foundation-models.md -- FEV Bench, GIFT-Eval, Kronos, timesfm_fin
-    status: pending
+    status: completed
   - id: llm-bench
     content: Write 02-benchmarks/financial-llm-slm.md -- FinBen, MultiFinBen, FinQA, BloombergGPT context
-    status: pending
+    status: completed
   - id: requirements
     content: Write 03-evaluation-requirements.md -- cross-cutting criteria matrix, paradigm-specific requirements
-    status: pending
+    status: completed
   - id: gaps
     content: Write 04-gaps-and-next-steps.md -- gap analysis, prioritized action items
-    status: pending
+    status: completed
 isProject: false
 ---
 
