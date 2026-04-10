@@ -35,7 +35,7 @@ This report surveys the evaluation ecosystem for tabular foundation models (tabu
 | Attribute | Detail |
 |---|---|
 | **Type** | Large-scale benchmark suite |
-| **Scale** | 200+ classification datasets |
+| **Scale** | 300+ datasets |
 | **Source** | Curated from OpenML and other repositories |
 | **Evaluation protocol** | Standardised train/test splits, fixed preprocessing |
 | **Focus** | Breadth — tests generalisation across a wide range of tabular tasks |
@@ -64,7 +64,7 @@ This is the most important finding for the team. Despite the maturity of tabular
    - Not maintained as part of a benchmark suite
    - Not designed for tabular FM evaluation (no standardised splits, no multi-setting protocol)
 
-### Financial Tabular Tasks the Team Could Curate
+### Financial Tabular Tasks the Team Could Curate (Important)
 
 If the team decides to invest in the tabular FM paradigm, the following tasks could form a finance-specific benchmark. For each, a candidate data source is identified:
 
@@ -77,7 +77,7 @@ If the team decides to invest in the tabular FM paradigm, the following tasks co
 | **Macro regime classification** | Predict recession/expansion from macro features | FRED-MD monthly panel (see [macroeconomic-institutional.md](../01-data-sources/macroeconomic-institutional.md)) | ~800 rows (monthly since 1959), but very wide feature set |
 | **Corporate rating prediction** | Predict credit rating from financial statement features | Compustat or hand-collected from SEC filings | 1K–10K rows |
 
-### Assessment: Where Tabular FMs Could Add Value
+### Assessment: Where Tabular FMs Could Add Value (Important)
 
 Based on current SOTA (TabICLv2, TabPFN) performance characteristics:
 
